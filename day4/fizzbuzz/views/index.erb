@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>FizzBuzz App</title>
+</head>
+<body>
+	<form action="/fizzbuzz" method="post">
+		<label for="first_number">Give me a number between 1 and 99</label>
+
+		<%# ask the user for the first number %>
+		<input type="number" id="first_number" name="first_number" min="1" max="99">
+
+		<br />
+		<label for="second_number">Give me another number between 1 and 99</label>
+		<%# ask the user for the second number %>
+		<input type="number" id="second_number" name="second_number" min="1" max="99">
+
+		<br />
+		<%# submit the form %>
+		<input type="submit" value="Get The Fizz Buzz">
+	</form>
+
+
+</body>
+</html>
